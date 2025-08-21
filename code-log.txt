@@ -1,0 +1,47 @@
+Daily Log Template:
+---
+Date: [Today's Date]
+Time Spent: [e.g., 60 mins]
+Topic: [e.g., Python Variables & Data Types]
+Code Files: [e.g., day1_part2.py]
+Notes/Struggles:
+- [A quick note about what you did, learned, or found difficult.]
+- [e.g., "The f-string was much cleaner than using the + sign."]
+- [e.g., "It was easy to remember that lists use [] because I think of them like rungs on a ladder."]
+Next Step:
+- [What is the very next thing you need to do? E.g., "Study conditional logic."]
+---
+
+Weekly Summary Template:
+
+
+
+
+
+
+
+
+
+
+
+[2025-08-19 20:30]  
+- Learned GitHub integration is built into VS Code (no extension required)  
+- Cloned repository from GitHub to local machine  
+- Created first Python script `helloworld.py` with test print statement  
+- Verified file appears in repo folder alongside README and .gitignore  
+- Did not push changes yet (saved for next session)  
+- Next step: Push new file to GitHub and practice log entry process
+
+Date: 2025-08-20
+Session Duration:  60 mins
+Focus: Push my first GitHub and practice basic Python
+Activities:
+- Pushed my folder to online GitHub
+- Created simply lesson2 basic Python
+Challenges:
+- The example to push wasnt very clear so I clicked around and figured it out myself.
+- Keep running out of time on chatGPT
+Solutions / Notes:
+- Used Gemini to fill in the blanks for chatGPT
+Next Steps:
+- Continue with chatGPT lesson plan but migrate a lot of those activities to Gemini

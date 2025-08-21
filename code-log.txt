@@ -12,17 +12,6 @@ Next Step:
 - [What is the very next thing you need to do? E.g., "Study conditional logic."]
 ---
 
-Weekly Summary Template:
-
-
-
-
-
-
-
-
-
-
 
 [2025-08-19 20:30]  
 - Learned GitHub integration is built into VS Code (no extension required)  
@@ -45,3 +34,14 @@ Solutions / Notes:
 - Used Gemini to fill in the blanks for chatGPT
 Next Steps:
 - Continue with chatGPT lesson plan but migrate a lot of those activities to Gemini
+
+Date: [2025-08-20]
+Time Spent: [Too Long]
+Topic: [Python Variables & Data Types]
+Code Files: [day2_variables.py]
+Notes/Struggles:
+- [Review the types and added/altered and observed the changes]
+- [The f-string was much cleaner than using the + sign."]
+- ["It was easy to remember that lists use [] because I think of them like rungs on a ladder."]
+Next Step:
+- ["Study conditional logic."]

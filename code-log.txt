@@ -45,3 +45,14 @@ Notes/Struggles:
 - ["It was easy to remember that lists use [] because I think of them like rungs on a ladder."]
 Next Step:
 - ["Study conditional logic."]
+
+Date: 08/21/2025
+Time Spent: 60 mins
+Topic: Python Control Flow (if/elif/else) & Boolean Operators
+Code Files: day3_control_flow.py
+Notes/Struggles:
+The concept of control flow was very intuitive, and I found the logic to be similar to PLC programming.
+I had extra time to move on to boolean operators (and, or, not) and nested if statements.
+No challenging events or struggles today.
+Next Step:
+The next lesson will be on loops (for and while).

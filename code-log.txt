@@ -56,3 +56,15 @@ I had extra time to move on to boolean operators (and, or, not) and nested if st
 No challenging events or struggles today.
 Next Step:
 The next lesson will be on loops (for and while).
+
+Date: 08/22/2025
+Time Spent: 30 mins
+Topic: Python Loops (for & while)
+Code Files: day4_loops.py
+Notes/Struggles:
+I understood the concept of loops easily, likely due to my background in PLC programming and reviewing the lesson during breaks at work.
+
+The f-string syntax for printing within the loop is still new to me. While VS Code's prompts are helpful, I need to practice writing these manually to build the muscle memory.
+Next Step:
+The next lesson will focus on functions and modules.
+

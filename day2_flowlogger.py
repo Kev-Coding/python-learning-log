@@ -27,7 +27,7 @@ try:
 except KeyboardInterrupt:
     print("\nFlow Logger stopped.")
 
-#Stretch goals if you want:
+#Stretch goals:
 #
 #Save each line to a text file (with open("log.txt", "a") as f: …).
 #

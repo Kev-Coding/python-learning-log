@@ -68,3 +68,13 @@ The f-string syntax for printing within the loop is still new to me. While VS Co
 Next Step:
 The next lesson will focus on functions and modules.
 
+Date: 08/23/2025
+Time Spent: 60 minutes
+Topic: Python Functions & Modules
+Code Files: day5_functions_modules.py
+Notes/Struggles:
+I found the concepts of functions and modules intuitive, but I realized I need more practice with the f-string syntax. I went back and corrected my code to use them properly.
+
+I also failed to include comments in my code. I will make this a priority going forward to improve readability.
+Next Step:
+I will be working on the bonus lesson to generate a data file for next week's SQL lessons.

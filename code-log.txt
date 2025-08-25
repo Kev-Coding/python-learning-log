@@ -78,3 +78,20 @@ I found the concepts of functions and modules intuitive, but I realized I need m
 I also failed to include comments in my code. I will make this a priority going forward to improve readability.
 Next Step:
 I will be working on the bonus lesson to generate a data file for next week's SQL lessons.
+
+Date: August 24, 2025
+Time Spent: 60 mins
+Topic: SQL Setup & First Queries
+Code Files: day6_creating_SQL.py, day6_first_query.py, day6_creating_SQL_executemany.py
+Notes/Struggles:
+
+Encountered several debugging challenges when trying to populate the database from the text file.
+
+The most significant struggle was a bug that caused the script to only insert the last entry of the data file, which led to a deeper understanding of how data is committed to the database.
+
+Corrected a table structure issue and learned the importance of matching SQL commands to the specific data format.
+
+Ultimately, we learned a more reliable and efficient method for bulk data insertion using cursor.executemany().
+Next Step:
+
+Explore both the execute() and executemany() methods in detail to fully understand their differences, benefits, and drawbacks.

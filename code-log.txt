@@ -95,3 +95,16 @@ Ultimately, we learned a more reliable and efficient method for bulk data insert
 Next Step:
 
 Explore both the execute() and executemany() methods in detail to fully understand their differences, benefits, and drawbacks.
+
+Date: August 26, 2025
+Time Spent: ~2 hours
+Topic: Advanced SQL Queries & Database Concepts
+Code Files: day8_sql_where.py, day8_sql_orderby.py, day8_inspect_schema.py, day8_count_records.py, day8_calculate_average.py, day8_calculate_sum.py
+Notes/Struggles:
+Mastered using the WHERE and ORDER BY clauses to filter and sort data.
+Learned to use SQL aggregation functions (COUNT(), AVG(), SUM()) to summarize data and used Python's fetchone() method for single results.
+Gained a clear understanding of the difference between execute() and executemany(), and the specific use cases for each.
+Clarified the difference between Python functions and methods and the use of brackets [] for indexing tuples and lists.
+Learned how to inspect a database schema using the PRAGMA table_info() command.
+Next Step:
+Continue with SQL lessons, likely focusing on more advanced concepts like GROUP BY and JOIN to perform deeper analysis.

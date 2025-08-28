@@ -108,3 +108,15 @@ Clarified the difference between Python functions and methods and the use of bra
 Learned how to inspect a database schema using the PRAGMA table_info() command.
 Next Step:
 Continue with SQL lessons, likely focusing on more advanced concepts like GROUP BY and JOIN to perform deeper analysis.
+
+Date: August 27, 2025
+Time Spent: ~1 hour
+Topic: SQL GROUP BY & HAVING Clauses
+Code Files: day9_group_by.py, day9_having.py, day9_complex_query.py
+Notes/Struggles:
+Learned the purpose of GROUP BY and HAVING clauses and their key difference from the WHERE clause.
+Discovered that our simple database was too flat to demonstrate the full power of these clauses, leading to a discussion on data modeling.
+Identified the need for a more robust database with multiple tags to fully test queries.
+Learned the official names for the parts of a SQL query (e.g., SELECT as projection, FROM as source).
+Next Step:
+Build a new, relational database with two tables to store tags and readings. We will include a column with a unique, auto-incrementing id as best practice.

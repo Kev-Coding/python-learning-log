@@ -120,3 +120,16 @@ Identified the need for a more robust database with multiple tags to fully test 
 Learned the official names for the parts of a SQL query (e.g., SELECT as projection, FROM as source).
 Next Step:
 Build a new, relational database with two tables to store tags and readings. We will include a column with a unique, auto-incrementing id as best practice.
+
+
+Date: August 28, 2025
+Time Spent: ~60 minutes
+Topic: Relational Database Creation, Schema Inspection & Debugging
+Code Files: day10_create_relational_db.py, day10_inspect_schema.py, day10_sqlite_master_query.py
+Notes/Struggles:
+Successfully created a multi-table relational database with foreign keys, modeling a real-world PLC tag structure.
+Learned how to inspect an unknown database's tables by querying the built-in sqlite_master table.
+Debugged a TypeError by learning to handle None values gracefully, a key skill for writing robust code.
+Understood how the PRAGMA table_info() command provides a fixed, predictable output, which is different from a standard SELECT query.
+Next Step:
+Our next lesson will be our first practical lesson on the JOIN clause to combine data from our new tables.

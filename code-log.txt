@@ -133,3 +133,17 @@ Debugged a TypeError by learning to handle None values gracefully, a key skill f
 Understood how the PRAGMA table_info() command provides a fixed, predictable output, which is different from a standard SELECT query.
 Next Step:
 Our next lesson will be our first practical lesson on the JOIN clause to combine data from our new tables.
+
+Date: September 1, 2025
+Time Spent: ~2 hours
+Topic: SQL JOIN Queries & Debugging
+Code Files: day11_simple_join.py, day11_join_all_tables.py, day11_practice_problems.py
+Notes/Struggles:
+Mastered the JOIN clause to combine data from multiple tables, successfully replicating a real-world tag hierarchy.
+Debugged and solved complex syntax errors related to SQL clause order (WHERE, GROUP BY, HAVING) and logical operators (AND, OR).
+Gained a clear understanding of the IN operator as a cleaner alternative to multiple OR statements.
+Solidified the skill of combining multiple clauses in a single query to perform specific, practical analysis.
+Next Step:
+We will return to our Python conversation for our next lesson, continuing with Python-specific topics.
+
+will be next

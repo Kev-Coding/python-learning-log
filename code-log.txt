@@ -146,4 +146,17 @@ Solidified the skill of combining multiple clauses in a single query to perform 
 Next Step:
 We will return to our Python conversation for our next lesson, continuing with Python-specific topics.
 
+Date: 09/01/2025
+Time Spent: 60 mins
+Topic: Introduction to NumPy
+Code Files: day11_numpy.py
+Notes/Struggles:
+
+I successfully installed NumPy and created a virtual environment. The terminal messages helped me understand why a virtual environment is a critical best practice for managing project dependencies.
+
+I wrote a comparison script that clearly demonstrated the performance difference between a standard Python list and a NumPy array.
+A key learning was that NumPy arrays are homogeneous (one data type), which is why they don't use commas in the terminal output and are much faster for numerical calculations.
+Next Step:
+Tomorrow, we will begin our lesson on the Pandas library, focusing on the DataFrame data structure.
+
 will be next

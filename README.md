@@ -1,8 +1,8 @@
 # Python Learning Log
-This is where I’ll track my progress learning Python.
+This is where I’ll track my progress learning Python and SQL.
 
-Weekly Summary Template:
-## Week of [Date: Aug 20, 2025] - Python Fundamentals
+
+## Week 1 of [Date: Aug 18, 2025] - Python Fundamentals
 
 ### 🧠 Concepts Learned
 - Variables and their different data types (strings, integers, floats, booleans).
@@ -20,3 +20,12 @@ This week, I learned that while Python's syntax is new, the underlying logic is 
 
 ### ➡️ Next Week's Plan
 Next week, I will be focusing on SQL fundamentals, including basic queries, filtering data with the `WHERE` clause, and inserting new data.
+
+## Week 2 of [Date: Aug 25, 2025]: SQL Fundamentals
+
+Concepts Learned: Creating relational databases, JOINs, GROUP BY, HAVING, and using PRAGMA.
+
+Key Projects: Modeled a multi-table database to match a real-world PLC tag hierarchy.
+
+Key Takeaway: Learned to combine JOIN, WHERE, and GROUP BY to perform complex analysis, and gained a clear understanding of the differences between flat and relational data models.
+

@@ -159,4 +159,15 @@ A key learning was that NumPy arrays are homogeneous (one data type), which is w
 Next Step:
 Tomorrow, we will begin our lesson on the Pandas library, focusing on the DataFrame data structure.
 
+Date: 09/02/2025
+Time Spent: 60 mins
+Topic: The Pandas DataFrame
+Code Files: day12_pandas.py
+Notes/Struggles:
+I successfully installed Pandas into my virtual environment after troubleshooting a ModuleNotFoundError. This reinforced the importance of managing project dependencies.
+I was able to load my CSV data into a Pandas DataFrame and display it in the terminal.
+I discovered several useful methods like .std(), .mean(), .head(), .tail(), .max(), and .min() on my own. I understand that .mean() is the correct statistical term for "average."
+Next Step:
+Tomorrow, we will learn how to select and manipulate specific columns and rows in a Pandas DataFrame.
+
 will be next

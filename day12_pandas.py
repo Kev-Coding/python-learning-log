@@ -1,0 +1,11 @@
+import pandas as pd
+df = pd.read_csv('flow_meter_data2.csv')
+# print(df)  
+print(df['Flow Rate'])
+# print(df['Flow Rate'].mean())
+# print(df['Flow Rate'].max())
+# print(df['Flow Rate'].min())
+print(df['Flow Rate'].std())  
+# print(df.head())
+# print(df.tail())
+# print(df['Flow Rate'].head())

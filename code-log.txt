@@ -170,4 +170,15 @@ I discovered several useful methods like .std(), .mean(), .head(), .tail(), .max
 Next Step:
 Tomorrow, we will learn how to select and manipulate specific columns and rows in a Pandas DataFrame.
 
+Date: 09/03/2025
+Time Spent: 60 mins
+Topic: Pandas DataFrame - Data Cleaning & Conversion
+Code Files: day13_pandas.py
+Notes/Struggles:
+I successfully completed the tasks for Day 13, including selecting columns, filtering rows, and creating a new calculated column.
+I had a great discussion on real-world data issues like missing data and flatlining sensors. I learned that Pandas has methods like .dropna() and .fillna() for these tasks, which are fundamental to a data engineer's work.
+We also discussed how Pandas can handle various data types beyond CSV, and how Python is used for data conversion in the ETL process.
+Next Step:
+Tomorrow, we will learn more about advanced data filtering and manipulation with Pandas, including using boolean logic to filter data.
+
 will be next

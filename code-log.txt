@@ -181,4 +181,16 @@ We also discussed how Pandas can handle various data types beyond CSV, and how P
 Next Step:
 Tomorrow, we will learn more about advanced data filtering and manipulation with Pandas, including using boolean logic to filter data.
 
+Date: 09/04/2025
+Time Spent: 2 hours
+Topic: Two-Week Review & Quiz
+Code Files: quiz_day14.py
+Notes/Struggles:
+I successfully completed all three challenges of the two-week review, combining lists, dictionaries, loops, conditional logic, and Pandas methods.
+I encountered the SettingWithCopyWarning and learned the importance of using .copy() and .loc to modify DataFrames, ensuring a robust and predictable workflow.
+I discovered that Pandas implicitly imports NumPy, but I've committed to explicitly importing all libraries for better code clarity and reproducibility.
+My curiosity led to learning about a key best practice for data integrity.
+Next Step:
+We will begin a new lesson on data aggregation and grouping, which is a fundamental skill for generating reports and summaries from data.
+
 will be next

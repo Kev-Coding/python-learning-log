@@ -204,4 +204,15 @@ We had a great discussion about when a Data Engineer should use SQL on the serve
 Next Step:
 Tomorrow, we will continue with data aggregation by learning how to apply it to more complex, real-world data scenarios from my historian.
 
+Date: 09/06/2025
+Time Spent: 30 mins
+Topic: Advanced Grouping & Custom Aggregation
+Code Files: day16_advanced_aggregation.py
+Notes/Struggles:
+This was a challenging lesson. I struggled with passing a custom function to .agg(), but through troubleshooting, I realized that .agg() operates on a group (a Series) of data, not a single value.
+This was a huge "aha!" moment, and it gave me a deeper understanding of the "Split-Apply-Combine" workflow.
+I believe this lesson was valuable because the struggle helped solidify the concept, and the professional solution of using a custom function is a powerful skill.
+Next Step:
+We will continue our lessons on advanced data manipulation, applying these new skills to more complex problems.
+
 will be next

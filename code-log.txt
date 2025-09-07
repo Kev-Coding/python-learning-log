@@ -193,4 +193,15 @@ My curiosity led to learning about a key best practice for data integrity.
 Next Step:
 We will begin a new lesson on data aggregation and grouping, which is a fundamental skill for generating reports and summaries from data.
 
+Date: 09/06/2025
+Time Spent: 60 mins
+Topic: Data Aggregation & Grouping
+Code Files: day15_aggregation.py
+Notes/Struggles:
+This was my first time using .groupby() and .agg() in Python. I had to look up the methods, but I understood the concepts from my SQL lessons, which helped a lot.
+I learned why using hardcoded data is a good practice for testing and ensuring my code's logic is sound.
+We had a great discussion about when a Data Engineer should use SQL on the server versus Pandas in memory, which helped clarify the workflow for my future career path.
+Next Step:
+Tomorrow, we will continue with data aggregation by learning how to apply it to more complex, real-world data scenarios from my historian.
+
 will be next

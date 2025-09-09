@@ -215,4 +215,15 @@ I believe this lesson was valuable because the struggle helped solidify the conc
 Next Step:
 We will continue our lessons on advanced data manipulation, applying these new skills to more complex problems.
 
-will be next
+Date: 09/08/2025
+Time Spent: 3 hours (Combined for Day 17 & Day 18)
+Topic: Merging & Data Cleaning with Pandas
+Code Files: day17_merging.py, day18_data_cleaning.py
+Notes/Struggles:
+I successfully completed two full lessons today. I learned how to combine two different DataFrames using the .merge() method, exploring all four types of joins (inner, left, outer, right).
+I also mastered key data cleaning skills, including handling missing values with .fillna() and .dropna() and converting Unix timestamps into a human-readable format with pd.to_datetime().
+The most important lesson was resolving the SettingWithCopyWarning. I now understand the difference between a "view" and a "copy" in Pandas and will use .loc to ensure my data pipelines are robust and predictable.
+Next Step:
+We will continue our journey with Pandas by focusing on advanced data manipulation.
+
+place holder for next

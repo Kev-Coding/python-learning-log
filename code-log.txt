@@ -226,4 +226,15 @@ The most important lesson was resolving the SettingWithCopyWarning. I now unders
 Next Step:
 We will continue our journey with Pandas by focusing on advanced data manipulation.
 
+Date: 09/09/2025
+Time Spent: 60 mins
+Topic: Advanced Data Transformation
+Code Files: day19_advanced_transformation.py
+Notes/Struggles:
+I successfully used np.where() to create conditional columns, a powerful and efficient alternative to a for loop.
+I practiced several new methods for data transformation, including .rename(), column reordering, .str.upper(), and using a custom function with .apply().
+I had to look up the new methods, but it reinforced that the programmer's job is to know the right question to ask, not to memorize every function. I am confident in my ability to find and implement these solutions.
+Next Step:
+We will conclude our Pandas lessons by learning how to handle different time zones, which is a key skill for working with time-series data.
+
 place holder for next

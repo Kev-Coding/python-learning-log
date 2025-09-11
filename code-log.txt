@@ -237,4 +237,14 @@ I had to look up the new methods, but it reinforced that the programmer's job is
 Next Step:
 We will conclude our Pandas lessons by learning how to handle different time zones, which is a key skill for working with time-series data.
 
+Date: 09/09/2025
+Time Spent: 60 mins
+Topic: Time Zones and Datetime Objects
+Code Files: day20_timezones.py
+Notes/Struggles:
+I successfully converted a timezone-naive DataFrame to a timezone-aware one in UTC and then to my local time zone (America/Chicago).
+This lesson reinforced the importance of handling time zones for building robust data pipelines, especially with time-series data.
+Next Step:
+We will begin the major capstone project to simulate a real-world data pipeline, combining all the skills learned so far.
+
 place holder for next

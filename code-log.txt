@@ -247,4 +247,15 @@ This lesson reinforced the importance of handling time zones for building robust
 Next Step:
 We will begin the major capstone project to simulate a real-world data pipeline, combining all the skills learned so far.
 
+Date: 09/10/2025
+Time Spent: 120 mins
+Topic: Capstone Project - Data Simulation
+Code Files: capstone_project.py
+Notes/Struggles:
+I began work on the simulate_data() function for the capstone project.
+I spent significant time debugging the code and realized my initial approach to coding the date and time was not robust.
+I've decided to rewrite that portion of the function to ensure the data is of high quality and follows best practices, which is a key part of building a reliable pipeline.
+Next Step:
+Finish the simulate_data() function and begin working on the analyze_data() function.
+
 place holder for next

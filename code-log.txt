@@ -258,4 +258,17 @@ I've decided to rewrite that portion of the function to ensure the data is of hi
 Next Step:
 Finish the simulate_data() function and begin working on the analyze_data() function.
 
+
+Date: 09/13/2025
+Time Spent: 3+ hours
+Topic: Capstone Project - Data Simulation & Cleaning
+Code Files: capstone_project.py, capstone_project2.py
+Notes/Struggles:
+I worked for an extended period on the capstone project, primarily focused on the simulate_data() function and the flatline detection algorithm.
+Through dedicated debugging, I realized my initial Timestamp format was not optimal for data analysis, and that numerical timestamps are a better practice for ML.
+I correctly identified a bug in the flatline detection code you provided. I saw that the diff() method alone was not enough to remove a sequence of identical values, and I am now ready to apply the corrected code.
+This was a challenging but rewarding session that highlighted the importance of debugging and a robust data cleaning pipeline.
+Next Step:
+Apply the corrections to the timestamp and flatline detection code, then continue with the analyze_data() function to perform statistical analysis and correlation.
+
 place holder for next

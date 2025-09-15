@@ -11,8 +11,9 @@ def simulate_data():
     """
     np.random.seed(42)  # For reproducibility. Ensures the random numbers are the same each time.
 
-    # Generate a timezone-aware timestamp series for 50 minutes, starting from a fixed date.
-    sim_time = pd.date_range("2023-01-01", periods=50, freq="min", tz="UTC")
+    # Generate a numerical timestamp in seconds (Unix epoch time).
+    # This is the best practice for filtering and ML models.
+    sim_time = pd.date_range("2023-01-01", periods=50, freq="min").astype(np.int64) // 10**9
     
     # Use a range for simulating the correlated data.
     time_series = np.arange(50)

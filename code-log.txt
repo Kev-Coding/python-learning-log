@@ -271,4 +271,16 @@ This was a challenging but rewarding session that highlighted the importance of 
 Next Step:
 Apply the corrections to the timestamp and flatline detection code, then continue with the analyze_data() function to perform statistical analysis and correlation.
 
+Date: 09/14/2025
+Time Spent: 3+ hours
+Topic: Capstone Project - Flatline Detection Bug
+Code Files: capstone_project.py, capstone_project2.py
+Notes/Struggles:
+I spent a long session debugging the analyze_data() function.
+I successfully identified and corrected a bug in the code provided, a significant win for a self-taught programmer.
+The most important lesson was learning to trust my own instincts and scrutinize the code's logic. The correct solution for flatline detection is a scalable boolean mask that checks each column for a change with .diff().ne(0).any(axis=1).
+I am now confident in my ability to build robust data cleaning pipelines.
+Next Step:
+Continue the capstone project by performing statistical analysis and using .std() to identify and remove anomalies.
+
 place holder for next

@@ -283,4 +283,16 @@ I am now confident in my ability to build robust data cleaning pipelines.
 Next Step:
 Continue the capstone project by performing statistical analysis and using .std() to identify and remove anomalies.
 
+Date: 09/15/2025
+Time Spent: 3+ hours
+Topic: Capstone Project - Finalizing Data Cleaning and Analysis
+Code Files: capstone_project.py
+Notes/Struggles:
+I successfully built and finalized the entire data pipeline for the capstone project.
+I correctly debugged the flatline detection logic and implemented a working solution.
+I discovered and implemented new methods for statistical analysis, including .corr() and .describe(), which will be crucial for creating professional reports.
+This project has solidified my understanding of how to take a real-world problem and use Python and Pandas to build a robust, reproducible solution.
+Next Step:
+Take a needed rest day, then begin the next chapter of our studies by organizing the README.md to showcase my progress.
+
 place holder for next

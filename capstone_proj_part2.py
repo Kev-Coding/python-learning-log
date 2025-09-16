@@ -40,7 +40,47 @@ def analyze_data(df):
 
     print("--- DataFrame after removing flatline signals ---")
     print(cleaned_df)
-    
+
+    # --- PART 2: Statistical Analysis ---
+
+
+
+    # Calculate mean and standard deviation for Flow_Rate and Pressure
+    stats = {
+        "Flow_Rate": {
+            "mean": cleaned_df["Flow_Rate"].mean(),
+            "std": cleaned_df["Flow_Rate"].std()
+        },
+        "Pressure": {
+            "mean": cleaned_df["Pressure"].mean(),
+            "std": cleaned_df["Pressure"].std()
+        }
+    }
+    # Print the statistics
+    print("--- Statistical Analysis ---")       
+    for key, value in stats.items():
+        print(f"{key} - Mean: {value['mean']}, Std: {value['std']}")
+
+
+    # remove outliers using z-score method
+    z_scores = np.abs((cleaned_df[["Flow_Rate", "Pressure"]] - cleaned_df[["Flow_Rate", "Pressure"]].mean()) / cleaned_df[["Flow_Rate", "Pressure"]].std())
+    cleaned_df = cleaned_df[(z_scores < 3).all(axis=1)]
+
+    # We can also reset the index for cleaner output.
+    cleaned_df = cleaned_df.reset_index(drop=True)
+    print("--- DataFrame after removing outliers ---")
+    print(cleaned_df)
+
+    # --- PART 3: Correlation Measurement ---
+
+    correlation_matrix = cleaned_df[["Flow_Rate", "Pressure"]].corr()
+    print("--- Correlation Matrix ---")
+    print(correlation_matrix)
+
+    # Use .describe() to get a quick overview of the statistics.
+    print("--- Statistical Overview ---")
+    print(cleaned_df[["Flow_Rate", "Pressure"]].describe()) 
+
     return cleaned_df
 
 def main():

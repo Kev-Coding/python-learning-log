@@ -307,4 +307,15 @@ I explored GitHub's additional tabs like Issues and Projects to understand how t
 Next Step:
 Begin the next chapter of our studies.
 
+Date: 09/18/2025
+Time Spent: 60 mins
+Topic: Introduction to Matplotlib
+Code Files: chapter2_day1_visualization.py
+Notes/Struggles:
+I successfully installed the matplotlib package and created both a line chart and a scatter plot from my data.
+I learned the difference between a Python package and a VS Code extension, which clarified a point of confusion for me.
+I discovered that matplotlib allows for a great deal of customization, and I was able to use parameters like marker, linestyle, and color to make the plots more readable.
+Next Step:
+We will continue our journey into data visualization by learning how to create a more professional, multi-panel report with Matplotlib.
+
 place holder for next

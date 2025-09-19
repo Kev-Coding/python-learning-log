@@ -295,4 +295,16 @@ This project has solidified my understanding of how to take a real-world problem
 Next Step:
 Take a needed rest day, then begin the next chapter of our studies by organizing the README.md to showcase my progress.
 
+Date: 09/17/2025
+Time Spent: 90 mins
+Topic: Capstone Project Wrap-up & GitHub Organization
+Code Files: README.md, (renamed project files)
+Notes/Struggles:
+I finalized the capstone project by ensuring all the code was clean and well-structured.
+I successfully updated my README.md to a professional, portfolio-style format that showcases my skills.
+I gained confidence in using GitHub by learning how to rename files and how Git tracks those changes without creating new, duplicate files.
+I explored GitHub's additional tabs like Issues and Projects to understand how they are used for professional project management.
+Next Step:
+Begin the next chapter of our studies.
+
 place holder for next

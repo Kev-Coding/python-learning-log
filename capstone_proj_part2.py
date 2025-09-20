@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import sqlite3  # Import SQLite library
 
 # Load the CSV file. This is an excellent practice for a modular pipeline.
 df = pd.read_csv('simulated_sensor_data.csv')
@@ -82,6 +83,26 @@ def analyze_data(df):
     print("--- Statistical Overview ---")
     print(cleaned_df[["Flow_Rate", "Pressure"]].describe()) 
 
+    #  Use data frames to SQL method to save the cleaned data to a new CSV file
+    cleaned_df.to_csv('cleaned_sensor_capstone_data.csv', index=False)
+    # Use sqlite3 to save the cleaned data to a new SQLite database
+    conn = sqlite3.connect('cleaned_sensor_capstone_project_data.db.sqlite')  # Create a new SQLite database (or connect to existing one)
+    cleaned_df.to_sql('cleaned_data', conn, if_exists='replace', index=False)
+    conn.commit()  # Commit changes
+    conn.close()  # Close the connection
+    print('-----------Clean sensor capstone project data sqlite3 database created.-----------')
+    # print out the db and examine the tables and structure
+    conn = sqlite3.connect('cleaned_sensor_capstone_project_data.db.sqlite')  # Create a new SQLite database (or connect to existing one)
+    cursor = conn.cursor()
+
+    cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+    tables = cursor.fetchall()
+    print("Tables in the database:")
+    for table in tables:
+        print(f" - {table[0]}") 
+
+    conn.close()  # Close the connection
+
     return cleaned_df
 #This was added after the project was completed.
 # As I learn more about plotting, I will update this function to make it better.
@@ -112,6 +133,9 @@ def visualize_data(cleaned_df):
     plt.tight_layout()  # Adjust layout to prevent overlap
     
     plt.show()
+
+    
+
 
 def main():
 

@@ -318,4 +318,15 @@ I discovered that matplotlib allows for a great deal of customization, and I was
 Next Step:
 We will continue our journey into data visualization by learning how to create a more professional, multi-panel report with Matplotlib.
 
+Date: 09/19/2025
+Time Spent: 60 mins
+Topic: Multi-Panel Plots and Professional Reporting
+Code Files: chapter2_day2_subplots.py
+Notes/Struggles:
+I successfully used the plt.subplots() function to create a two-panel plot, which is a key skill for creating professional reports.
+I learned the difference between the plt and ax APIs in Matplotlib, and how the modern approach uses the axes object to manage multiple plots.
+The most important lesson was learning to trust my own instincts and scrutinize the code's logic.
+Next Step:
+We will begin our next chapter by learning how to use Python to connect to a real database, a crucial step for working with your historian.
+
 place holder for next

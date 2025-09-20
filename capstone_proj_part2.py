@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 # Load the CSV file. This is an excellent practice for a modular pipeline.
 df = pd.read_csv('simulated_sensor_data.csv')
@@ -82,11 +83,43 @@ def analyze_data(df):
     print(cleaned_df[["Flow_Rate", "Pressure"]].describe()) 
 
     return cleaned_df
+#This was added after the project was completed.
+# As I learn more about plotting, I will update this function to make it better.
+# --- PART 4: Data Visualization ---
+def visualize_data(cleaned_df): 
+    """
+    Visualizes the cleaned data using subplots.
+    """
+    # use subplots with a figure with two plots stacked on top of each other
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 10))  # 2 rows, 1 column
+
+    # First subplot: Line chart of Flow Rate vs Timestamp
+    ax1.plot(pd.to_datetime(cleaned_df['Timestamp'], unit='s'), cleaned_df['Flow_Rate'], marker='o', linestyle='-', color='b', label='Flow Rate')
+    ax1.plot(pd.to_datetime(cleaned_df['Timestamp'], unit='s'), cleaned_df['Pressure'], marker='x', linestyle='--', color='r', label='Pressure')
+    ax1.set_xlabel("Timestamp")        # X-axis label
+    ax1.set_ylabel("Flow Rate & Pressure")    # Y-axis label
+    ax1.set_title("Flow Rate & Pressure vs Timestamp")  # Title of the plot
+    ax1.grid(True)  # Add grid for better readability
+    ax1.legend()  # <-- this shows the labels from above on the plot
+
+    # Second subplot: Scatter plot of Flow Rate vs Pressure
+    ax2.scatter(cleaned_df['Pressure'], cleaned_df['Flow_Rate'], color='r', marker='x')
+    ax2.set_xlabel("Pressure")        # X-axis label
+    ax2.set_ylabel("Flow Rate")    # Y-axis label
+    ax2.set_title("Correlation between Flow Rate and Pressure")  # Title of the plot
+    ax2.grid(True)  # Add grid for better readability
+
+    plt.tight_layout()  # Adjust layout to prevent overlap
+    
+    plt.show()
 
 def main():
 
     # Run the analysis
     cleaned_df = analyze_data(df)
+
+    # Visualize the cleaned data
+    visualize_data(cleaned_df)
     
     # You can now continue with your next tasks here...
 

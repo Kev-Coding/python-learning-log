@@ -25,3 +25,14 @@ plt.xlabel("Pressure")        # X-axis label
 plt.ylabel("Flow Rate")    # Y-axis label
 plt.title("Flow Rate vs Pressure")  # Title of the plot
 plt.show()
+
+plt.plot(df.index, df['Flow_Rate'], marker='o', linestyle='-', color='b', label='Flow Rate')
+plt.plot(df.index, df['Pressure'], marker='s', linestyle='--', color='r', label='Pressure')
+
+plt.xlabel("Index")
+plt.ylabel("Measurement Value")
+plt.title("Flow Rate vs Pressure Over Time")
+
+plt.legend()   # <-- this shows the labels from above on the plot
+
+plt.show()

@@ -321,12 +321,23 @@ We will continue our journey into data visualization by learning how to create a
 Date: 09/19/2025
 Time Spent: 60 mins
 Topic: Multi-Panel Plots and Professional Reporting
-Code Files: chapter2_day2_subplots.py
+Code Files: chapter2_day2_subplots.pyS
 Notes/Struggles:
 I successfully used the plt.subplots() function to create a two-panel plot, which is a key skill for creating professional reports.
 I learned the difference between the plt and ax APIs in Matplotlib, and how the modern approach uses the axes object to manage multiple plots.
 The most important lesson was learning to trust my own instincts and scrutinize the code's logic.
 Next Step:
 We will begin our next chapter by learning how to use Python to connect to a real database, a crucial step for working with your historian.
+
+Date: 09/20/2025
+Time Spent: 60 mins
+Topic: Inserting Data into a Database
+Code Files: chapter2_day3_insert_data.py, chapter2_day3_P2_db_conn.py
+Notes/Struggles:
+I successfully created a Python script that can create and populate a SQLite database table.
+I used the efficient and secure cursor.executemany() method to insert data, which is a key practice for data engineering.
+I also wrote code that reads the data back out of the database, confirming the successful insertion. This completes the "Load" part of my ETL pipeline.
+Next Step:
+We will continue our studies by learning how to read and query data from the database.
 
 place holder for next

@@ -50,7 +50,7 @@ insert_data_sql = '''
 
 cursor.executemany(insert_data_sql, sample_data)
 
-query = "SELECT * FROM sensor_data"
+query = "SELECT * FROM sensor_data WHERE flow_rate > 20.0"
 
 # 3. Execute the query.
 cursor.execute(query)

@@ -340,4 +340,15 @@ I also wrote code that reads the data back out of the database, confirming the s
 Next Step:
 We will continue our studies by learning how to read and query data from the database.
 
+Date: 09/22/2025
+Time Spent: 45 mins
+Topic: Reading and Querying Data into Pandas
+Code Files: chapter2_day5_query_data_to_pandas.py
+Notes/Struggles:
+I successfully used the pd.read_sql_query() function, which is the most efficient and professional way to bridge the gap between a SQL query and a Pandas DataFrame.
+I correctly used a WHERE clause in the SQL query to filter the data at the source, which is a fundamental data engineering best practice.
+I learned why the df.info() method does not return a value and that the None in the terminal is the return value of the print() command.
+Next Step:
+We will integrate the database connection and querying code into our capstone project's data pipeline.
+
 place holder for next

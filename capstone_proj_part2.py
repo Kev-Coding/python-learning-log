@@ -134,6 +134,9 @@ def visualize_data(cleaned_df):
     
     plt.show()
 
+    # Third subplot: Line chart of Pressure vs Timestamp
+    
+
     
 
 

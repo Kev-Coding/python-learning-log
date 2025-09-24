@@ -136,8 +136,20 @@ def visualize_data(cleaned_df):
 
     # Third subplot: Line chart of Pressure vs Timestamp
     
+# --- PART 6: Database Load and Verification ---   
+def load_to_database(df):
+    """
+    Loads a cleaned DataFrame into a SQLite database table.
+    """
+    # Connect to the database file you created.
+    conn = sqlite3.connect('database_conn_lesson.db.sqlite')
 
+    # Use .to_sql() to write the DataFrame to a table.
+    # The 'if_exists='replace'' parameter is key for development.
+    df.to_sql('cleaned_data', conn, if_exists='replace', index=False)
     
+    # Close the connection.
+    conn.close()   
 
 
 def main():
@@ -147,6 +159,8 @@ def main():
 
     # Visualize the cleaned data
     visualize_data(cleaned_df)
+
+    load_to_database(cleaned_df)
     
     # You can now continue with your next tasks here...
 

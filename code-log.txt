@@ -351,4 +351,15 @@ I learned why the df.info() method does not return a value and that the None in 
 Next Step:
 We will integrate the database connection and querying code into our capstone project's data pipeline.
 
+Date: 09/23/2025
+Time Spent: 90 mins
+Topic: ETL Practice - Reading Data from Multiple Sources
+Code Files: practice_lesson_1_read.py
+Notes/Struggles:
+I successfully wrote a script that can read data from both a CSV file and a SQLite database.
+I learned how to use a try...finally block to ensure that my database connection is always closed, which is a key best practice for data integrity.
+My code for dynamically listing and reading tables from the database is a great, scalable solution. It proves my understanding of how to work with a database without knowing the table names beforehand.
+Next Step:
+The next lesson will be a hands-on practice session where I will transform data from a CSV file, load it into a database, and then read it back out. This will complete the full ETL pipeline.
+
 place holder for next

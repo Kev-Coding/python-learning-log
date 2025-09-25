@@ -362,4 +362,15 @@ My code for dynamically listing and reading tables from the database is a great,
 Next Step:
 The next lesson will be a hands-on practice session where I will transform data from a CSV file, load it into a database, and then read it back out. This will complete the full ETL pipeline.
 
+Date: 09/24/2025
+Time Spent: 90 mins
+Topic: ETL Practice - Converting Data Formats
+Code Files: practice_lesson_2_csv_sqlite.py, practice_lesson_3_sqlite_csv.py
+Notes/Struggles:
+I successfully created two scripts to practice converting data between CSV and SQLite formats, demonstrating a full ETL cycle.
+I confirmed my understanding of how to use to_sql() and read_sql() to move data between a Pandas DataFrame and a database.
+This practice session solidified my confidence in building a complete data pipeline that can handle different data formats.
+Next Step:
+We will take a look at the lesson plan for the next 14 days and begin the next phase of our studies.
+
 place holder for next

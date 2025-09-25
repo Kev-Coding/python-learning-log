@@ -30,3 +30,4 @@ print("DB columns:", df2_db.columns.tolist())
 print(df2_db.head(), "\n")
 
 conn.close()
+

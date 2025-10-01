@@ -373,4 +373,27 @@ This practice session solidified my confidence in building a complete data pipel
 Next Step:
 We will take a look at the lesson plan for the next 14 days and begin the next phase of our studies.
 
+Date: 09/28/2025
+Time Spent: 60 mins
+Topic: Advanced Matplotlib - Multi-Panel Plots
+Code Files: chapter2_day6_advanced_plots.py
+Notes/Struggles:
+I successfully used the plt.subplots(rows, cols) function to create a grid of plots, moving beyond single charts.
+I learned that for professional multi-panel plotting, you must use the Object-Oriented API, accessing plots directly via axes[row, col].plot() instead of the general plt.plot().
+We discussed why the array indexing method is the most scalable best practice for creating visual reports with many plots (e.g., a 3x2 grid), as it avoids unnecessary errors.
+Next Step:
+Tomorrow (Day 29), we will combine our skills by learning how to generate data using .groupby() and then plot that aggregated data using a custom Bar Chart.
+
+Date: 09/30/2025
+Time Spent: 90 mins
+Topic: Grouped Data Visualization (Bar Charts)
+Code Files: chapter2_day7_grouped_plots.py
+Notes/Struggles:
+I successfully used multi-level grouping (.groupby(['Shift', 'Process_Line'])) to generate data for a complex report.
+I found two ways to plot this data: the Pandas method (.plot(kind='bar'), which is fast and simple) and the Matplotlib method (which allows for full customization).
+The key takeaway is that Matplotlib requires more effort but gives complete control, while Pandas is faster for quick visual checks.
+I am looking forward to seeing how Seaborn (tomorrow's lesson) simplifies complex statistical plotting.
+Next Step:
+Tomorrow (Day 30), we will begin our official lesson on the Seaborn library for quick, high-level statistical visualization.
+
 place holder for next
